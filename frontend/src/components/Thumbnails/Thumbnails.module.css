@@ -1,0 +1,54 @@
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0.5rem;
+}
+
+.prodImg {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.memory {
+  margin-top: auto;
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.colour {
+  color: rgb(33, 32, 32);
+  font-size: medium;
+}
+
+.colour span {
+  color: rgb(132, 133, 133);
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  text-align: center;
+  font-family: arial;
+  border-radius: 1rem;
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+.name {
+  margin: 1rem auto 1rem;
+  font-size: medium;
+  color: black;
+}
+
+.price {
+  color: rgb(11, 93, 47);
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}

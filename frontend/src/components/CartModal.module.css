@@ -1,0 +1,46 @@
+.modal {
+  position: absolute;
+  top: 2.6rem;
+  right: -100%;
+  width: 300px;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  z-index: 1002;
+  opacity: 0.9;
+  box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 0 1rem;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 0;
+}
+.showModal {
+  display: block;
+  right: 0;
+}
+
+.modalContent {
+  padding: 20px;
+}
+
+.cartPageBtn {
+  margin-top: 1rem;
+  border: none;
+  background: rgb(50, 50, 50);
+  color: white;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.price::before {
+  content: "  Total Price:";
+  color: black;
+}
+.price {
+  margin-top: 0.5rem;
+  color: rgb(173, 14, 14);
+}
+.items {
+  margin-top: 5rem;
+}

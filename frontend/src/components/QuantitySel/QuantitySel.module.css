@@ -1,0 +1,27 @@
+.container {
+  padding: auto;
+  margin: auto;
+  display: flex;
+}
+
+.q {
+  padding: 0.1rem;
+}
+
+.container span {
+  margin-top: 0.5rem;
+}
+
+.button {
+  border-radius: 1rem;
+  font-size: medium;
+  margin: 0.3rem;
+  opacity: 0.8;
+  background: white;
+}
+
+.button:hover,
+:active {
+  opacity: 1;
+  background-color: rgb(237, 237, 241);
+}
